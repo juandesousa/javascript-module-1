@@ -1,13 +1,9 @@
-function feel(feelings){
-    if(feelings==='happy'){
-        return "Good job, you're doing great!"
-    }else if(feelings==='sad'){
-        return "Every cloud has a silver lining"
-    }else if(typeof feelings === 'number'){
-        return "Beep beep boop"
-    }else{
-        return "I'm sorry, I'm still learning about feelings!"
-    }
-}
-
-console.log(feel('happy'))
+// Probar en la consola de node las siguientes declaraciones
+// let num = 10
+// num > 5 && num < 15
+// num < 10 || num === 10
+// false || true
+// !true
+// let greaterThan5 = num > 5
+// !greaterThan5
+// !(num === 10)
