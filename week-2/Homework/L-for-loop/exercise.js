@@ -11,11 +11,13 @@ let n = 10;
 function sumTillNum(num){
 	//your code here
 	let arr = [];
-	for(let i=0;i<n;i++){
+	let sum = 0;
+	for(let i=0;i<=n;i++){
 		arr.push(i);
+		sum += i;
 	}
 	arr = arr.sort((a,b) => a-b)
-	return arr.join(' + ')
+	return arr.join(' + ')+' or '+sum;
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
