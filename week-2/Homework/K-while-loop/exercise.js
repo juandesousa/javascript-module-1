@@ -10,6 +10,14 @@ let n = 10;
 
 function sumTillNum(num){
 	//your code here
+	let arr = [];
+	while (num >= 0) {
+		arr.push(num);
+		num--;
+	}
+	arr = arr.sort((a,b)=> a-b)
+
+	return arr.join(' + ');
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
