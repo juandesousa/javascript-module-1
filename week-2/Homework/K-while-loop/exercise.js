@@ -12,12 +12,12 @@ function sumTillNum(num){
 	//your code here
 	let arr = [];
 	let sum = 0;
-	while (num >= 0) {
-		arr.push(num);
-		sum += num;
-		num--;
+	let i = 0;
+	while (i <= num) {
+		arr.push(i);
+		sum += i;
+		i++;
 	}
-	arr = arr.sort((a,b)=> a-b)
 
 	return arr.join(' + ')+' or '+sum ;
 }

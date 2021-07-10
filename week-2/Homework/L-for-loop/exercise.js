@@ -16,7 +16,7 @@ function sumTillNum(num){
 		arr.push(i);
 		sum += i;
 	}
-	arr = arr.sort((a,b) => a-b)
+	
 	return arr.join(' + ')+' or '+sum;
 }
 
