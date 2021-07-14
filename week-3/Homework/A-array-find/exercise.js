@@ -5,6 +5,8 @@
 
 // write your code here
 
+const  findLongNameThatStartsWithA = ( arr ) => arr.find( name => name.startsWith('A') && name.length > 7 )
+
 var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
 
 var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
