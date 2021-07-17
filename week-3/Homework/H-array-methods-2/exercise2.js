@@ -15,9 +15,11 @@ function capitalise(str) {
   wordJoined = wordSplited.join('');
   return wordJoined;
 
-  let upper = str.substr(0,1).toUpperCase();
-  let lower = str.substr(1,str.length);
-  return upper+lower;
+  // let upper = str.substr(0,1).toUpperCase();
+  // let lower = str.substr(1,str.length);
+  // return upper+lower;
+
+  // return str[0].toUpperCase() + str.slice(1);
 }
 
 /* 
